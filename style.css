@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* header part  */
+header {
+    display: flex;
+    width: 90%;
+    height: 80px;
+    background-color: #e6efec;
+    margin: 0% auto;
+
+}
+
+#logo {
+    width: 40%;
+    margin-top: 15px;
+}
+
+#logo img {
+    width: 66px;
+    margin-left: 10%;
+}
+
+#menu {
+    width: 100%;
+    margin-left: 35%;
+    padding-top: 35px;
+}
+
+#menu span {
+    padding: 25px;
+    font-size: 18px;
+}
+
+#menu span a:hover {
+    cursor: pointer;
+    color: green;
+}
+
+/* slider part */
+#top-slider {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('/img/slider2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    margin: 0% auto;
+    padding-top: 100px;
+    color: black;
+}
+
+#top-slider a {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+#top-slider a:hover {
+    color: green;
+}
+
+/* hero-part */
+#hero{
+    width: 1200px;
+    margin: 0px auto;
+}
+.service-title{
+    text-align: center;
+    padding-top: 20px;
+}
+#service-box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.box{
+    border: 1px solid black;
+    margin: 0px 10px;
+    padding: 25px 10px;
+    border-radius: 5px;
+    background-color: #ebebebb8;
+    
+}
+.box button{
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0.5px solid #19191a
+    
+}
+.box img{
+    width: 35%;
+}
+
+/* footer */
+footer{
+    margin-top: 30px;
+}
+#footer-top{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding-left: 10%;
+}
+#footer-left img{
+    width: 25%;
+}
+.footer-pages{
+    font-size: 18px;
+    margin: 15px;
+}
+.footer-pages span{
+    margin: 5px;
+}
+.footer-social{
+    font-size: 18px;
+    margin: 15px;
+}
+i{
+    margin-right: 10px;
+    cursor: pointer;
+}
+#footer-button{
+    height: 30px;
+    text-align: center;
+    background-color: #9fa7a4;
+    padding-top: 14px;
+    color: #2c29297d;
+    width: 1200px;
+    margin: 0 auto;
+}

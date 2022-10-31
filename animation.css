@@ -1,0 +1,21 @@
+.animation {
+    animation: 5s mov infinite;
+}
+
+@keyframes mov {
+    0% {
+        background-color: rgba(0, 0, 255, 0.534);
+    }
+
+    25% {
+        background-color: rgb(146, 146, 135);
+    }
+
+    50% {
+        background-color: rgb(115, 115, 122);
+    }
+
+    100% {
+        background-color: rgb(110, 117, 110);
+    }
+}

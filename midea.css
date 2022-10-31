@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+
+    body{
+        width: 100%;
+    }
+    header{
+
+    }
+    #logo{
+        width: 30%;
+    }
+    #menu{
+        width: auto;
+    }
+   
+}
